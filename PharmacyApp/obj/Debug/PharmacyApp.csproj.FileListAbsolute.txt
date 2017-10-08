@@ -1,0 +1,14 @@
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\bin\Debug\PharmacyApp.exe.config
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\bin\Debug\PharmacyApp.exe
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\bin\Debug\PharmacyApp.pdb
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.csprojResolveAssemblyReference.cache
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.Form1.resources
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.Properties.Resources.resources
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.csproj.GenerateResource.Cache
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.csproj.CoreCompileInputs.cache
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.exe
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.pdb
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\bin\Debug\EntityFramework.dll
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\bin\Debug\EntityFramework.xml
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\bin\Debug\EntityFramework.SqlServer.xml
