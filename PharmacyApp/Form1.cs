@@ -17,14 +17,12 @@ namespace PharmacyApp
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void addToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            TableForm tableForm = new TableForm();
 
+            tableForm.ShowDialog(this);
         }
+
     }
 }

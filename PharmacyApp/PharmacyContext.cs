@@ -11,7 +11,9 @@ namespace PharmacyApp
     {
         public PharmacyContext() : base("PharmacyDb") { }
 
-        DbSet<Supplier> Supppliers { get; set; }
-        DbSet<Customer> Customers { get; set; }
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Drug> Drugs { get; set; }
+        public DbSet<Seller> Sellers { get; set; }
+        public DbSet<Order> Orders { get; set; }
     }
 }
