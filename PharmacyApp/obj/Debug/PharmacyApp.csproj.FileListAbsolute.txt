@@ -13,3 +13,6 @@ C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\bin\Debug\EntityFram
 C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\bin\Debug\EntityFramework.xml
 C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.TableForm.resources
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.DrugForm.resources
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.CustomerForm.resources
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.SellerForm.resources
