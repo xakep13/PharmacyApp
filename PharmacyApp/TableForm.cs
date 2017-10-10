@@ -20,17 +20,32 @@ namespace PharmacyApp
             InitializeComponent();
 
             db = new PharmacyContext();
-            db.Orders.Load();
+            db.Customers.Load();
+            db.Drugs.Load();
+            db.Sellers.Load();
 
             comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
 
-            dataGridView1.DataSource = db.Orders.Local.ToBindingList();
+            
         }
+
 
         void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             string selectedState = comboBox1.SelectedItem.ToString();
-            MessageBox.Show(selectedState);
+
+            switch(selectedState)
+            {
+                case "Ліки":
+                    dataGridView1.DataSource = db.Drugs.Local.ToBindingList();
+                    break;
+                case "Продавці":
+                    dataGridView1.DataSource = db.Sellers.Local.ToBindingList();
+                    break;
+                case "Клієнти":
+                    dataGridView1.DataSource = db.Customers.Local.ToBindingList();
+                    break;
+            }
         }
 
     }

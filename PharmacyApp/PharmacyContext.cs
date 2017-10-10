@@ -9,6 +9,10 @@ namespace PharmacyApp
 {
     class PharmacyContext :DbContext
     {
+        static PharmacyContext()
+        {
+            Database.SetInitializer<PharmacyContext>(new MyContextInitializer());
+        }
         public PharmacyContext() : base("PharmacyDb") { }
 
         public DbSet<Customer> Customers { get; set; }
