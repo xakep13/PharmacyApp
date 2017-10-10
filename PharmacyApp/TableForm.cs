@@ -146,7 +146,7 @@ namespace PharmacyApp
 
             MessageBox.Show("Об'ект обновлений");
         }
-
+        //додавання
         private void button3_Click(object sender, EventArgs e)
         {
             switch (selectedState)
@@ -221,6 +221,61 @@ namespace PharmacyApp
 
             MessageBox.Show("Новий об'єкт додано");
         }
-    }
+        //видалення
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                int index = dataGridView1.SelectedRows[0].Index;
+                int id = 0;
+                bool converted = Int32.TryParse(dataGridView1[0, index].Value.ToString(), out id);
 
+                if (converted == false)
+                    return;
+
+                switch (selectedState)
+                {
+                    case "Ліки":
+                        DrugRemove(id);
+                        break;
+                    case "Продавці":
+                        SellerRemove(id);
+                        break;
+                    case "Клієнти":
+                        CustomerRemove(id);
+                        break;
+                }
+            }
+        }
+
+        private void CustomerRemove(int id)
+        {
+            Customer customer = db.Customers.Find(id);
+
+            db.Customers.Remove(customer);
+            db.SaveChanges();
+
+            MessageBox.Show("Об`єкт видалено");
+        }
+
+        private void SellerRemove(int id)
+        {
+            Seller seller = db.Sellers.Find(id);
+
+            db.Sellers.Remove(seller);
+            db.SaveChanges();
+
+            MessageBox.Show("Об`єкт видалено");
+        }
+
+        private void DrugRemove(int id)
+        {
+            Drug drug = db.Drugs.Find(id);
+
+            db.Drugs.Remove(drug);
+            db.SaveChanges();
+
+            MessageBox.Show("Об`єкт видалено");
+        }
+    }
 }

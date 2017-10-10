@@ -16,3 +16,4 @@ C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyAp
 C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.DrugForm.resources
 C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.CustomerForm.resources
 C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.SellerForm.resources
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.OrderForm.resources
