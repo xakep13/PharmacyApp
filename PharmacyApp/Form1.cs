@@ -48,19 +48,33 @@ namespace PharmacyApp
                 orderForm.comboBox3.Items.Add(s);
 
 
-
             DialogResult dialogResult = orderForm.ShowDialog(this);
 
             if (dialogResult == DialogResult.Cancel)
                 return;
 
-            
-
             Order order = new Order();
 
+            order.Date = orderForm.dateTimePicker1.Value;
+
+            Drug drug = new Drug();
+            drug.Title = orderForm.comboBox3.Text;
+            order.Drugs.Add(drug);
+
+            Seller seller = new Seller();
+            seller.Name = orderForm.comboBox1.Text;
+            order.Sellers.Add(seller);
+
+            Customer customer = new Customer();
+            customer.Name = orderForm.comboBox2.Text;
+            order.Customers.Add(customer);
+
             
 
+            db.Orders.Add(order);
+            db.SaveChanges();
 
+            MessageBox.Show("Успішно додано");
         }
     }
 }
