@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Data.Entity;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace PharmacyApp
@@ -57,19 +52,16 @@ namespace PharmacyApp
 
             order.Date = orderForm.dateTimePicker1.Value;
 
-            Drug drug = new Drug();
+            Drug drug = db.Drugs.FirstOrDefault(p => p.Title == orderForm.comboBox3.Text);
             drug.Title = orderForm.comboBox3.Text;
             order.Drugs.Add(drug);
 
-            Seller seller = new Seller();
+            Seller seller = db.Sellers.FirstOrDefault(p => p.Name == orderForm.comboBox1.Text);
             seller.Name = orderForm.comboBox1.Text;
             order.Sellers.Add(seller);
 
-            Customer customer = new Customer();
-            customer.Name = orderForm.comboBox2.Text;
-            order.Customers.Add(customer);
-
-            
+            Customer customer = db.Customers.FirstOrDefault(p => p.Name == orderForm.comboBox2.Text);
+            order.Customers.Add(customer); 
 
             db.Orders.Add(order);
             db.SaveChanges();
