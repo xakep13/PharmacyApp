@@ -17,3 +17,6 @@ C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyAp
 C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.CustomerForm.resources
 C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.SellerForm.resources
 C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.OrderForm.resources
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\bin\Debug\Data.dll
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\bin\Debug\Data.pdb
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\PharmacyApp\bin\Debug\Data.dll.config

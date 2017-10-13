@@ -1,0 +1,11 @@
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\Data\bin\Debug\Data.dll.config
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\Data\bin\Debug\Data.dll
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\Data\bin\Debug\Data.pdb
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\Data\bin\Debug\EntityFramework.dll
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\Data\bin\Debug\EntityFramework.xml
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\Data\obj\Debug\DataLibrery.csproj.CoreCompileInputs.cache
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\Data\obj\Debug\Data.dll
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\Data\obj\Debug\Data.pdb
+C:\Users\unopcpavilion\Source\Repos\PharmacyApp\Data\obj\Debug\DataLibrery.csprojResolveAssemblyReference.cache
